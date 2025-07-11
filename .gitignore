@@ -1,0 +1,20 @@
+# Ignore build files
+target/
+bin/
+*.class
+
+# Ignore IDE files
+*.iml
+.idea/
+*.project
+*.classpath
+.settings/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Maven
+.mvn/
