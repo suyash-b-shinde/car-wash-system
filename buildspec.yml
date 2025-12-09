@@ -3,7 +3,7 @@ phases:
   build:
     commands:
       - echo Packaging JAR file...
-      - mvn -f Eureka-server2/pom.xml -DskipTests
+      - mvn -f Eureka-server2/pom.xml clean package -DskipTests
   post_build:
     commands:
       - echo Build complete.
